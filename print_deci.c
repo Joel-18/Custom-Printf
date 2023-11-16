@@ -6,10 +6,10 @@
  * Return: number of integers printed
  */
 
-int print_deci (va_list args)
+int print_deci(va_list args)
 {
 	int n = va_arg(args, int);
-	int num, last = n, exp; 
+	int num, last = n, exp;
 	int i = 1;
 
 	n = n / 10;

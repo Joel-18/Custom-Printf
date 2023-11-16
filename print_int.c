@@ -26,9 +26,9 @@ int print_int(va_list args)
 	if (num > 0)
 	{
 		while (num / 10 != 0)
-		{ 
+		{
 			exp = exp * 10;
-		 	num = num / 10;	
+			num = num / 10;
 		}
 		num = n;
 		while (exp > 0)

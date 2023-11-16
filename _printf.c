@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * _printf - prints stdin to stdout
  * @format: format identifier.
  * Return: length of the string.
  */
+
 int _printf(const char * const format, ...)
 {
 	convert p[] = {
