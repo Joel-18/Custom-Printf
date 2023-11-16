@@ -1,17 +1,18 @@
 #include "main.h"
+
 /**
- * printf_int - prints integers
+ * print_int - prints integers
  * @args: input arguments to be printed out
  * Return: number of integers printed
 */
 
-int printf_int(va_list args)
+int print_int(va_list args)
 {
 	int n = va_arg(args, int);
-	int num, last = n & 10, digit exp =1;
+	int num, last = n & 10, digit, exp = 1;
 	int i = 1;
 
-	n =n / 10;
+	n = n / 10;
 	num = n;
 
 	if (last < 0)

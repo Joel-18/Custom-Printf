@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * printf_deci - prints decimals
+ * print_deci - prints decimals
  * @args: input arguments to be printed
  * Return: number of integers printed
  */
 
-int printf_deci (va_list args)
+int print_deci (va_list args)
 {
 	int n = va_arg(args, int);
-	int num, last = n 
+	int num, last = n, exp; 
 	int i = 1;
 
 	n = n / 10;
